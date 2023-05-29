@@ -317,14 +317,14 @@
         <h3 class="title is-4">Interpolating states</h3>
         <div class="content has-text-justified">
           <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
+            Photoswap can effortlessly replace the subject in a source image, which could be either synthetic (first two rows) or real 
+            (bottom row), with a personalized subject specified in reference images, while preserving the original 
+            subject pose and the composition of the source image. 
           </p>
         </div>
         <div class="columns is-vcentered interpolation-panel">
           <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
+            <img src="./static/images/teaser-arxiv.pdf"
                  class="interpolation-image"
                  alt="Interpolate start reference image."/>
             <p>Start Frame</p>
@@ -407,11 +407,11 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+    <pre><code>@article{gu2023photoswap,
+  author    = {Gu, Jing and },
+  title     = {PHOTOSWAP: Personalized Subject Swapping in Images},
+  journal   = {arXiv},
+  year      = {2023},
 }</code></pre>
   </div>
 </section>
@@ -432,16 +432,11 @@
       <div class="column is-8">
         <div class="content">
           <p>
+            This website is adapted from <a rel="license"
+            href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>, licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
             This website is licensed under a <a rel="license"
                                                 href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-          <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
           </p>
         </div>
       </div>
